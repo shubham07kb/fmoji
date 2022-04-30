@@ -1,0 +1,21 @@
+pip install virtualenv
+virtualenv env
+env\Scripts\activate.bat //any one
+env\Scripts\activate.ps1 //any one
+pip install numpy
+pip install opencv-python
+pip install opencv-contrib-python
+pip install pillow
+pip install requests
+pip install flask
+git clone https://github.com/misbah4064/facial_expressions.git
+cd facial_expressions/
+mkdir data_set
+mkdir dataset
+mkdir trainer
+cd data_set
+mkdir anger
+mkdir happy
+mkdir neutral
+mkdir sad
+mkdir surprise
